@@ -1,0 +1,69 @@
+<html>
+<head>
+<style>
+h1
+{
+text-color:"green";
+text-align:"left";
+}
+</style>
+<form align="center">
+
+<title>
+sample 
+</title>
+<body bgcolor="YELLOW">
+<h1>  LOGIN FORM </h1>
+<h1> PERSONAL DEATILES </h1>
+first name::<input type="text"><br> <br>
+last name::<input type="text"><br> <br>
+email::<input type="email"><br> <br>
+phone no::<input type="number"><br> <br>
+DOB:<input type="date" name="name"><br><br>
+ADDRESS:<input type="textarea" name="name"><br>
+<h2> PHYSICAL DEATILES </h2>
+GENDER:<input type="radio" name="radiogroup" >male
+<input type="radio" name="radiogroup" >female
+<input type="radio" name="radiogroup" >others
+</input>
+<h4> QUALIFICATIONS </h4>
+<select name="name">
+<option selected>....select here...</option>
+<option>SSC </option>
+<option>INTER </option>
+<option>DIPLOMA </option>
+<option>DEGREE </option>
+<option>B-TECH </option>
+</select> <br> <br>
+PERCENTAGE:<input type="number" name="name"> <br><br>
+IF YOU ARE BTECH SELECT COURCE HEAR:<br><br><input type="radio" name="radiogroup" >CSE<br>
+<input type="radio" name="radiogroup" >ECE<br>
+<input type="radio" name="radiogroup" >IT<br>
+<input type="radio" name="radiogroup" >AIML<br>
+<input type="radio" name="radiogroup" >CIVIL<br>
+<input type="radio" name="radiogroup" >MECH<br>
+</input> <br> <br>
+<h5>HOBBIES </h5>
+<input type="checkbox" name=checkboxgroup>cricket<br>
+<input type="checkbox" name=checkboxgroup>coading<br>
+<input type="checkbox" name=checkboxgroup>reading-books<br>
+<input type="checkbox" name=checkboxgroup>indoor games<br>
+<input type="checkbox" name=checkboxgroup>sports<br>
+<input type="checkbox" name=checkboxgroup>OTHERS<br>
+<input type="submit" name="name">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
